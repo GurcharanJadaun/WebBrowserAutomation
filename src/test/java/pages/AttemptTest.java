@@ -139,7 +139,7 @@ public class AttemptTest {
 			exportResult.put("Score", Score);
 			exportResult.put("Rank", Rank);
 			exportResult.put("CutOff", Cutoff);
-			workBook.exportResults("/target/testOutput/Result.xls", exportResult);
+			workBook.exportResults("/src/resources/testOutput/Result.xls", exportResult);
 		}
 	}
 
