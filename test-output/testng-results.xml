@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Local" duration-ms="116924" started-at="2020-09-14T08:53:35Z" finished-at="2020-09-14T08:55:32Z">
+    <groups>
+    </groups>
+    <test name="LocalTest" duration-ms="116924" started-at="2020-09-14T08:53:35Z" finished-at="2020-09-14T08:55:32Z">
+      <class name="com.driverScripts.NewTest">
+        <test-method status="PASS" signature="setupXpathRepository()[pri:0, instance:com.driverScripts.NewTest@724af044]" name="setupXpathRepository" is-config="true" duration-ms="813" started-at="2020-09-14T14:23:34Z" finished-at="2020-09-14T14:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupXpathRepository -->
+        <test-method status="PASS" signature="setupTest(java.lang.String, java.lang.String)[pri:0, instance:com.driverScripts.NewTest@724af044]" name="setupTest" is-config="true" duration-ms="13023" started-at="2020-09-14T14:23:35Z" finished-at="2020-09-14T14:23:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gurcharanjadaun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9899951820]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.driverScripts.NewTest@724af044]" name="login" duration-ms="34316" started-at="2020-09-14T14:23:48Z" finished-at="2020-09-14T14:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="dealWithNotif()[pri:0, instance:com.driverScripts.NewTest@724af044]" name="dealWithNotif" is-config="true" duration-ms="484" started-at="2020-09-14T14:24:22Z" finished-at="2020-09-14T14:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealWithNotif -->
+        <test-method status="PASS" signature="openTest()[pri:2, instance:com.driverScripts.NewTest@724af044]" name="openTest" duration-ms="30703" started-at="2020-09-14T14:24:23Z" depends-on-methods="com.driverScripts.NewTest.login" finished-at="2020-09-14T14:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTest -->
+        <test-method status="PASS" signature="dealWithNotif()[pri:0, instance:com.driverScripts.NewTest@724af044]" name="dealWithNotif" is-config="true" duration-ms="0" started-at="2020-09-14T14:24:53Z" finished-at="2020-09-14T14:24:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealWithNotif -->
+        <test-method status="PASS" signature="attemptTest()[pri:3, instance:com.driverScripts.NewTest@724af044]" name="attemptTest" duration-ms="36815" started-at="2020-09-14T14:24:53Z" depends-on-methods="com.driverScripts.NewTest.openTest" finished-at="2020-09-14T14:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attemptTest -->
+        <test-method status="PASS" signature="dealWithNotif()[pri:0, instance:com.driverScripts.NewTest@724af044]" name="dealWithNotif" is-config="true" duration-ms="15" started-at="2020-09-14T14:25:30Z" finished-at="2020-09-14T14:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dealWithNotif -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.driverScripts.NewTest@724af044]" name="close" is-config="true" duration-ms="1485" started-at="2020-09-14T14:25:30Z" finished-at="2020-09-14T14:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.driverScripts.NewTest -->
+    </test> <!-- LocalTest -->
+  </suite> <!-- Local -->
+</testng-results>
