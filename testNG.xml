@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Local">
-<parameter name="SignInEmail" value="gurcharanjadaun"/>
-<parameter name="SignInPassword" value="9899951820"/>
+<parameter name="SignInEmail" value=""/>
+<parameter name="SignInPassword" value=""/>
     <test name="LocalTest">
         <classes>
             <class name="com.driverScripts.NewTest"/>
